@@ -35,6 +35,12 @@ export default new Router({
             name: 'forms',
             component: () =>
                 import ( /* webpackChunkName: "about" */ './views/Forms.vue')
+        },
+        {
+            path: '/validacion',
+            name: 'validacion',
+            component: () =>
+                import ( /* webpackChunkName: "about" */ './views/Validacion.vue')
         }
     ]
 })
